@@ -64,8 +64,6 @@ The from-scratch ViT model was trained on a small dataset consisting of images o
 
 ##### Training and Testing Accuracy
 
-![From-Scratch Model](outputs/plots/from_scratch_accuracy.png)
-
 - **Accuracy**: Accuracy is bad due to the lack of larger dataset.
 
 
