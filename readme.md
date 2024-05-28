@@ -1,7 +1,7 @@
 # Vision Transformer (ViT) Project
 
 ## Overview
-This project is a reproduction of the Vision Transformer (ViT) paper. It involves training a ViT model from scratch on a dataset of food items (pizza, steak, sushi) and using transfer learning with a pretrained ViT model on the same dataset. Additionally, the project incorporates agricultural datasets (potatoes, tomatoes, peppers) to further demonstrate the model's capabilities.
+This project is a reproduction of the Vision Transformer (ViT) paper. It involves training a ViT model from scratch on a dataset of food items (pizza, steak, sushi) and using transfer learning with a pretrained ViT model on the same dataset. 
 
 ## Project Structure
 - `data/`: Contains training and testing data.
