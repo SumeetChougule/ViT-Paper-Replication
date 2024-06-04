@@ -1,6 +1,5 @@
 import torch
 from ViT_arc import ViT, data
-from torchvision import transforms
 from src import engine, utils
 
 # MPS on my MacBook Pro couldn't handle the batch size in memory but it worked with cpu. So, I've set device = 'cpu'. If you've Nvidia GPU then uncomment the following line.

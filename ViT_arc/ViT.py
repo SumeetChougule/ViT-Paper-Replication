@@ -178,7 +178,7 @@ class ViT_Base(nn.Module):
         mlp_dropout: float = 0.1,
         attn_dropout: float = 0,
         embedding_dropout: float = 0.1,
-        num_classes: int = 1000,  # Default for ImageNet but can customize this
+        num_classes: int = 1000,  # Default for ImageNet but we can customize this
     ) -> None:
         super().__init__()
 
@@ -261,9 +261,10 @@ class ViT_Base(nn.Module):
 # vit = ViT(num_classes=1000)
 # vit(random_image_tensor)
 
-from torchinfo import summary
 
 # Print a summary of our custom ViT model using torchinfo (uncomment for actual output)
+
+# from torchinfo import summary
 # summary(
 #     model=vit,
 #     input_size=(32, 3, 224, 224),  # (batch_size, color_channels, height, width)
